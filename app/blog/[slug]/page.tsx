@@ -7,6 +7,7 @@ const BlogPost: React.FC = async () => {
   return (
     <>
       <h1>BlogPost</h1>
+      <p> 动态路由：{params.slug}</p>
     </>
   );
 };
